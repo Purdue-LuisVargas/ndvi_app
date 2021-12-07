@@ -11,7 +11,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 # dataframe path
-fileName = (r'https://raw.githubusercontent.com/Purdue-LuisVargas/ndviyaqui/main/treatments_2018_joined.csv')
+fileName = ('treatments_2018_joined.csv')
 df = pd.read_csv(fileName)
 
 # round ndvi to two decimals
